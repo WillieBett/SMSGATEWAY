@@ -4,10 +4,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Customsms
 {
     private $api_url = 'https://smsportal.hostpinnacle.co.ke/SMSApi/send';
-    private $userid = 'BROOKHILLSCHOOL';
-    private $password = 'Qz5T3nkS';
-    private $api_key = '6ee11d9df2cd22ac1e56b098644649a84e4bb250';
-    private $senderid='BROOKHILL';
+    private $userid = '';
+    private $password = '';
+    private $api_key = '';
+    private $senderid='';
     private $msgType = 'text';
     private $duplicatecheck = true;
     private $output = 'json';
